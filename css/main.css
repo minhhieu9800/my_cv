@@ -1,0 +1,392 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../helvetica.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'MyFont', serif, sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 230px;
+    background-color: #f3f3f3;
+    padding-left: 10%;
+}
+
+#header h1 {
+    padding-top: 3%;
+    font-size: 3em;
+    letter-spacing: 5px;
+    color: #304153;
+}
+
+#header ul {
+    display: inline-block;
+    background-color: #304153;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 0.7em;
+}
+
+#header ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+    transform: translateY(10px);
+}
+
+#header ul li:after {
+    content: "";
+    display: inline-block;
+    border-right: 2px solid #f3f3f3;
+    height: 50px;
+    float: right;
+}
+
+#none_border:after {
+    display: none !important;
+}
+
+#header a {
+    text-decoration: none;
+    color: #f3f3f3;
+    letter-spacing: 2px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+}
+
+#header a:hover {
+    border-bottom: 2px solid #f3f3f3;
+}
+
+/* Body 1 */
+
+#body1 {
+    padding-left: 10%;
+    padding-top: 30px;
+    overflow: hidden;
+    height: auto;
+}
+
+.parallelogram {
+    width: 280px;
+    height: 50px;
+    transform: skew(-30deg);
+    background: #304153;
+    color: #f3f3f3;
+}
+
+#about_me {
+    /*    background-color: red;*/
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+    /*    background-color: yellow;*/
+}
+
+.title {
+    position: absolute;
+    color: #f3f3f3;
+    top: 25px;
+    transform: translate(-50%, -50%);
+    left: 140px;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    z-index: 2;
+}
+
+.parallelogram:after {
+    content: "";
+    display: inline-block;
+    width: 1000%;
+    border-bottom: 5px solid #3699dc;
+    transform: translate(330px, 15px);
+}
+
+#detail {
+    margin-top: 20px;
+    width: 299px;
+    font-size: 0.95em;
+    color: #304153;
+    float: none;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+}
+
+#detail p {
+    height: 25px;
+    line-height: 25px;
+}
+
+#detail span {
+    width: 60px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#detail > p a {
+    text-decoration: none;
+    color: #304153;
+    border-bottom: 1px solid transparent;
+}
+
+#detail > p a:hover {
+    border-bottom: 1px solid #304153;
+}
+
+#detail ul {
+    margin-top: 20px;
+    font-size: 48px;
+}
+
+#detail a {
+    text-decoration: none;
+}
+
+.fa-facebook-square {
+    color: #4267B2;
+}
+
+.fa-google-plus-square {
+    color: #f4521f;
+}
+
+.fa-git-square {
+    color: #000000;
+}
+
+.fa-instagram {
+    color: deeppink;
+}
+
+.fa-medium {
+    color: black;
+}
+
+#my_story {
+    width: 60%;
+    height: 250px;
+    float: left;
+    /*    background-color: aquamarine;*/
+    display: none;
+    ;
+    font-size: 1em;
+}
+
+#my_story i {
+    height: 200px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../image/about_me.jpg);
+    box-shadow: 5px 5px 2px #3699dc;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#my_story p {
+    line-height: 25px;
+    display: none;
+    height: 200px;
+    width: 69%;
+    margin-left: 30px;
+    float: left;
+    /*    background-color: blueviolet;*/
+}
+
+
+#my_story em,
+#my_story strong {
+    font-family: serif;
+    float: right;
+    width: 90%;
+    display: none;
+}
+
+
+/* skills */
+
+#skills {
+    position: relative;
+    height: 730px;
+    width: 100%;
+    /*    background-color: red;*/
+}
+
+.chart {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.chart p {
+    transform: translateY(70px);
+    font-size: 0.7em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* body 2 */
+
+#body2 {
+    background-color: #304153;
+    width: 100%;
+    padding-left: 10%;
+    color: #f3f3f3;
+    overflow: hidden;
+}
+
+.s_title {
+    display: inline-block;
+    background-color: #3699dc;
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
+
+.s_title:after {
+    content: "";
+    display: inline-block;
+    width: 1000%;
+    border-bottom: 5px solid #3699dc;
+    transform: translate(330px, -55px);
+}
+
+#body2 li {
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.from_to:after {
+    content: "2016 - up to now";
+    display: inline-block;
+    font-weight: normal;
+    margin-left: 50px;
+    background-color: #3699dc;
+    height: 22px;
+    width: 160px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 5px;
+}
+
+#body2 a {
+    text-decoration: none;
+    color: #f3f3f3;
+    border-bottom: 1px solid transparent;
+}
+
+#body2 a:hover {
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#body2 div div p {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+#body2 div div {
+    transform: translateY(-30px);
+}
+
+#webdemo {
+    border-bottom: 1px solid #f3f3f3 !important;
+}
+
+#webdemo:hover {
+    color: aqua;
+    border-bottom: 1px solid aqua !important;
+}
+
+
+
+@media screen and (min-width: 1346px) {
+    #my_story {
+        width: 72%;
+    }
+    #my_story p {
+        width: 78%;
+    }
+
+    #my_story em,
+    #my_story strong {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1145px) {
+    .chart {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    #my_story p {
+        display: inline-block;
+    }
+
+    #my_story i {
+        float: left;
+    }
+
+    #header ul {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1145px) {
+    .chart {
+        display: inline-block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    #skills {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        /*    background-color: red;*/
+    }
+
+    #my_story {
+        display: inline-block;
+    }
+
+    #detail {
+        float: left;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+
+    #header h1 {
+        font-size: 5em;
+    }
+
+    #header ul {
+        font-size: 1em;
+    }
+}
