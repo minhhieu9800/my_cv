@@ -229,6 +229,11 @@
     /*    background-color: red;*/
 }
 
+#box {
+    width: 100%;
+    padding-left: 0;
+}
+
 .chart {
     display: block;
     text-align: center;
@@ -340,10 +345,6 @@
 }
 
 @media screen and (min-width: 1145px) {
-    .chart {
-        margin-left: 75px;
-        margin-right: 75px;
-    }
 
     #my_story p {
         display: inline-block;
@@ -361,8 +362,15 @@
 @media screen and (min-width: 1145px) {
     .chart {
         display: inline-block;
-        margin-left: 70px;
-        margin-right: 70px;
+    }
+
+    .small_box {
+        width: 24%;
+        display: inline-block;
+    }
+
+    #box {
+        padding-left: 10%;
     }
 
     #skills {
