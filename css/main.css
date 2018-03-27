@@ -224,7 +224,7 @@
 
 #skills {
     position: relative;
-    height: 730px;
+    height: 850px;
     width: 100%;
     /*    background-color: red;*/
 }
@@ -242,12 +242,14 @@
     margin-top: 50px;
 }
 
-.chart p {
-    transform: translateY(70px);
-    font-size: 0.7em;
+.small_box p {
+    font-size: 1.2em;
     font-weight: bold;
     letter-spacing: 2px;
+    text-align: center
 }
+
+
 
 /* body 2 */
 
@@ -367,10 +369,7 @@
     .small_box {
         width: 24%;
         display: inline-block;
-    }
-
-    #box {
-        padding-left: 10%;
+        text-align: center;
     }
 
     #skills {
