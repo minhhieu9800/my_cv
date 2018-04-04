@@ -124,6 +124,7 @@
     margin-right: auto;
     display: block;
     margin-left: auto;
+    position: relative;
 }
 
 #detail p {
@@ -135,6 +136,44 @@
     width: 60px;
     display: inline-block;
     font-weight: bold;
+}
+
+#detail ul li > p {
+    font-size: 0.3em;
+    display: inline-block;
+    position: absolute;
+    top: 180px;
+    transform: translate(-60px, -45px);
+    transition: all 1s;
+    color: #304153;
+    opacity: 0;
+    z-index: -55;
+    font-weight: bold;
+}
+
+.fa-facebook-square:hover #txt_fb {
+    transform: translate(-10px, 0);
+    opacity: 1;
+}
+
+.fa-google-plus-square:hover #txt_gg {
+    transform: translate(-5px, 0);
+    opacity: 1;
+}
+
+.fa-git-square:hover #txt_git {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.fa-instagram:hover #txt_ins {
+    transform: translate(-10px, 0);
+    opacity: 1;
+}
+
+.fa-medium:hover #txt_med {
+    transform: translate(0, 0);
+    opacity: 1;
 }
 
 #detail > p a {
