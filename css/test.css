@@ -401,6 +401,21 @@
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../image/montere.jpg);
 }
 
+#img_certificate {
+    background-image: url(../image/bang.jpg);
+}
+
+#img_app {
+    background-image: url(../image/app.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+#img_certificate:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../image/bang.jpg);
+    border: none !important;
+}
+
 #img_montere:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../image/montere.jpg);
     border: none !important;
