@@ -14,7 +14,7 @@
 #header {
     width: 100%;
     background-color: #f3f3f3;
-    padding-left: 10%;
+   
 }
 
 #header h1 {
@@ -72,7 +72,6 @@
 /* Body 1 */
 
 #body1 {
-    padding-left: 10%;
     padding-top: 30px;
     overflow: hidden;
     height: auto;
@@ -294,9 +293,13 @@
 #body2 {
     background-color: #304153;
     width: 100%;
-    padding-left: 10%;
+/*    padding-left: 10%;*/
     color: #f3f3f3;
     overflow: hidden;
+}
+
+.itemN {
+    margin-left: 10%;
 }
 
 .s_title {
@@ -486,4 +489,36 @@
     #header ul {
         font-size: 1em;
     }
+}
+
+
+#info {
+	background:#333;
+	opacity:0.8;
+	position: absolute;
+	top:5px;
+	right:5px;
+	width:100%;
+	color:#fff;
+	border-radius: 5px;
+	z-index:10000
+	
+}
+
+#info p {
+   /*padding:0 10px;*/
+}
+
+#info a{ color:#f2ea0a; }
+
+/* basic styles for black background and crosshair cursor */
+/*body {
+	background: #000;
+	margin: 0;
+}*/
+
+canvas {
+	cursor: crosshair;
+	display: block;      
+        width: 100%
 }
