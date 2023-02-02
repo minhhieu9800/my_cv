@@ -336,7 +336,7 @@
     margin-top: 10px;
 }
 
-.from_to:after {
+/* .from_to:after {
     content: "2016 - up to now";
     display: inline-block;
     font-weight: normal;
@@ -347,7 +347,7 @@
     text-align: center;
     line-height: 22px;
     border-radius: 5px;
-}
+} */
 
 #body2 a {
     text-decoration: none;
