@@ -335,7 +335,7 @@
 }
 
 .from_to:after {
-    content: "2016 - up to now";
+    content: "";
     display: inline-block;
     font-weight: normal;
     margin-left: 50px;
